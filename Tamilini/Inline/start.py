@@ -10,12 +10,12 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="TamilBots"
+                    text="🍼HELP", callback_data="TamilBots"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="⚔️Settings", callback_data="settingm"
                 )
             ],
         ]
@@ -24,17 +24,17 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="TamilBots"
+                    text="🍼HELP", callback_data="TamilBots"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="⚔️Settings", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="😎Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -43,17 +43,17 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="TamilBots"
+                    text="🍼HELP", callback_data="TamilBots"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="⚔️Settings", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="🎟️Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
         ]
@@ -62,20 +62,20 @@ def start_pannel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="TamilBots"
+                    text="🍼HELP", callback_data="TamilBots"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
+                    text="⚔️Settings", callback_data="settingm"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="🎟️Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="😎Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -87,14 +87,8 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="TamilBots"
+                    text="🍼HELP", callback_data="TamilBots"
                 ),
-            ],
-            [
-                InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                )
             ],
         ]
         return f"🎛  **This is {MUSIC_BOT_NAME}**", buttons
@@ -102,18 +96,12 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="TamilBots"
+                    text="🍼HELP", callback_data="TamilBots"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                )
-            ],
-            [
-                InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="😎Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -127,12 +115,6 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                )
-            ],
-            [
-                InlineKeyboardButton(
                     text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
             ],
@@ -142,21 +124,15 @@ def private_panel():
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="TamilBots"
+                    text="🍼HELP", callback_data="TamilBots"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "➕ Add me to your Group",
-                    url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                )
-            ],
-            [
-                InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
+                    text="🎟️Official Channel", url=f"{SUPPORT_CHANNEL}"
                 ),
                 InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
+                    text="😎Support Group", url=f"{SUPPORT_GROUP}"
                 ),
             ],
         ]
@@ -166,20 +142,20 @@ def private_panel():
 def setting_markup():
     buttons = [
         [
-            InlineKeyboardButton(text="🔈 Audio Quality", callback_data="AQ"),
-            InlineKeyboardButton(text="🎚 Audio Volume", callback_data="AV"),
+            InlineKeyboardButton(text="🔊 Audio Quality", callback_data="AQ"),
+            InlineKeyboardButton(text="🔉 Audio Volume", callback_data="AV"),
         ],
         [
             InlineKeyboardButton(
-                text="👥 Authorized Users", callback_data="AU"
+                text="👶 Authorized Users", callback_data="AU"
             ),
             InlineKeyboardButton(
-                text="💻 Dashboard", callback_data="Dashboard"
+                text="🧸 Dashboard", callback_data="Dashboard"
             ),
         ],
         [
-            InlineKeyboardButton(text="✖️ Close", callback_data="close"),
-            InlineKeyboardButton(text="🔙 Go Back", callback_data="goback"),
+            InlineKeyboardButton(text="⭕ Close ⭕", callback_data="close"),
+            InlineKeyboardButton(text="⛔ Go Back ⛔", callback_data="goback"),
         ],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
@@ -189,23 +165,23 @@ def volmarkup():
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔄 Reset Audio Volume 🔄", callback_data="HV"
+                text="☢️ Reset Audio Volume ☢️", callback_data="HV"
             )
         ],
         [
-            InlineKeyboardButton(text="🔈 Low Vol", callback_data="LV"),
-            InlineKeyboardButton(text="🔉 Medium Vol", callback_data="MV"),
+            InlineKeyboardButton(text="✳️ Low Vol ✳️", callback_data="LV"),
+            InlineKeyboardButton(text="⚜️ Medium Vol ⚜️", callback_data="MV"),
         ],
         [
-            InlineKeyboardButton(text="🔊 High Vol", callback_data="HV"),
-            InlineKeyboardButton(text="🔈 Amplified Vol", callback_data="VAM"),
+            InlineKeyboardButton(text="⭕ High Vol ⭕", callback_data="HV"),
+            InlineKeyboardButton(text="⭕ Amplified Vol ⭕", callback_data="VAM"),
         ],
         [
             InlineKeyboardButton(
                 text="🔽 Custom Volume 🔽", callback_data="Custommarkup"
             )
         ],
-        [InlineKeyboardButton(text="🔙 Go back", callback_data="settingm")],
+        [InlineKeyboardButton(text="🚶 Go back 🚶", callback_data="settingm")],
     ]
     return f"🔧  **{MUSIC_BOT_NAME} Settings**", buttons
 
