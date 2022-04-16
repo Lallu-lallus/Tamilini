@@ -187,6 +187,7 @@ async def start_command(_, message):
 🎥**Channel Name:** {channel}
 📎**Channel Link:** [Visit From Here]({channellink})
 🔗**Video Link:** [Link]({link})
+🤟𝗕𝘆: {message.from_user.mention()}
 
 ⚡️ __Searched Powered By {BOT_NAME}t__"""
             key = InlineKeyboardMarkup(
