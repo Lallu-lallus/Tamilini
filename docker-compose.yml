@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+
+  bot:
+
+    build: .
+
+    environment:
+     API_ID: $API_ID
+     API_HASH: $API_HASH
+     BOT_TOKEN: $BOT_TOKEN
+     DURATION_LIMIT: $DURATION_LIMIT
